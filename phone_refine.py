@@ -22,11 +22,11 @@ def reformat(number):
 
 ### Gets the dataset ###
 if (len(sys.argv)==1):
-    print("No file specified")
-    quit()
+  print("No file specified")
+  quit()
 
 else:
-    df = pd.read_csv(sys.argv[1])
+  df = pd.read_csv(sys.argv[1])
 
 initial = len(df.index)
 
